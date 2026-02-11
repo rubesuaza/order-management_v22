@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="creation" tests="5" skipped="0" failures="1" errors="0" timestamp="2026-02-11T20:49:22.827Z" hostname="RubenS" time="0.262">
+<testsuite name="creation" tests="5" skipped="0" failures="1" errors="0" timestamp="2026-02-11T21:01:25.757Z" hostname="RubenS" time="0.366">
   <properties/>
-  <testcase name="creates valid line and lineTotal is quantity * unitPrice" classname="com.example.management.domain.model.OrderLineTest$Creation" time="0.114"/>
-  <testcase name="rejects quantity zero" classname="com.example.management.domain.model.OrderLineTest$Creation" time="0.038"/>
-  <testcase name="rejects negative unit price" classname="com.example.management.domain.model.OrderLineTest$Creation" time="0.014"/>
-  <testcase name="rejects negative quantity" classname="com.example.management.domain.model.OrderLineTest$Creation" time="0.006"/>
-  <testcase name="accepts zero unit price" classname="com.example.management.domain.model.OrderLineTest$Creation" time="0.051">
+  <testcase name="creates valid line and lineTotal is quantity * unitPrice" classname="com.example.management.domain.model.OrderLineTest$Creation" time="0.141"/>
+  <testcase name="rejects quantity zero" classname="com.example.management.domain.model.OrderLineTest$Creation" time="0.021"/>
+  <testcase name="rejects negative unit price" classname="com.example.management.domain.model.OrderLineTest$Creation" time="0.011"/>
+  <testcase name="rejects negative quantity" classname="com.example.management.domain.model.OrderLineTest$Creation" time="0.004"/>
+  <testcase name="accepts zero unit price" classname="com.example.management.domain.model.OrderLineTest$Creation" time="0.144">
     <failure message="org.opentest4j.AssertionFailedError: expected: &lt;0&gt; but was: &lt;0.00&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;0&gt; but was: &lt;0.00&gt;
 	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)

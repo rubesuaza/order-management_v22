@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="save and findById" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-02-11T21:01:44.553Z" hostname="RubenS" time="0.075">
+  <properties/>
+  <testcase name="findById returns saved order" classname="com.example.management.infrastructure.adapters.out.InMemoryOrderRepositoryContractTest$SaveAndFind" time="0.048"/>
+  <testcase name="saves order and assigns id" classname="com.example.management.infrastructure.adapters.out.InMemoryOrderRepositoryContractTest$SaveAndFind" time="0.012"/>
+  <testcase name="findById returns empty for unknown id" classname="com.example.management.infrastructure.adapters.out.InMemoryOrderRepositoryContractTest$SaveAndFind" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

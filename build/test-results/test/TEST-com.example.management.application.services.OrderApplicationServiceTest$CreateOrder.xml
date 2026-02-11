@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="createOrder" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-02-11T21:01:24.476Z" hostname="RubenS" time="1.174">
+  <properties/>
+  <testcase name="throws when lines are empty (domain invariant)" classname="com.example.management.application.services.OrderApplicationServiceTest$CreateOrder" time="0.054"/>
+  <testcase name="maps DTOs to domain, creates order, saves and returns saved order" classname="com.example.management.application.services.OrderApplicationServiceTest$CreateOrder" time="0.713"/>
+  <testcase name="throws when line has invalid data (e.g. negative quantity)" classname="com.example.management.application.services.OrderApplicationServiceTest$CreateOrder" time="0.337"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

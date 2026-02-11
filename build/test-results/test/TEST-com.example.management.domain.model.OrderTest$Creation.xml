@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="creation" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-02-11T20:49:23.126Z" hostname="RubenS" time="0.081">
+<testsuite name="creation" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-02-11T21:01:26.179Z" hostname="RubenS" time="0.1">
   <properties/>
-  <testcase name="order total equals sum of line totals" classname="com.example.management.domain.model.OrderTest$Creation" time="0.021"/>
-  <testcase name="creates order with lines and total is sum of line totals" classname="com.example.management.domain.model.OrderTest$Creation" time="0.015"/>
-  <testcase name="lines are immutable copy" classname="com.example.management.domain.model.OrderTest$Creation" time="0.004"/>
-  <testcase name="rejects empty lines" classname="com.example.management.domain.model.OrderTest$Creation" time="0.01"/>
+  <testcase name="order total equals sum of line totals" classname="com.example.management.domain.model.OrderTest$Creation" time="0.013"/>
+  <testcase name="creates order with lines and total is sum of line totals" classname="com.example.management.domain.model.OrderTest$Creation" time="0.003"/>
+  <testcase name="create leaves id null" classname="com.example.management.domain.model.OrderTest$Creation" time="0.003"/>
+  <testcase name="lines are immutable copy" classname="com.example.management.domain.model.OrderTest$Creation" time="0.014"/>
+  <testcase name="rejects empty lines" classname="com.example.management.domain.model.OrderTest$Creation" time="0.012"/>
   <testcase name="rejects null lines" classname="com.example.management.domain.model.OrderTest$Creation" time="0.015"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
